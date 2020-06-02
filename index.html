@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="content">
+            <nav>
+                <ul>
+                    <li><img src="images/home.svg" alt="Home">Home</li>
+                    <li><img src="images/notification.svg" alt="Notifications">Notifications</li>
+                    <li><img src="images/message.svg" alt="Messages">Messages</li>
+                </ul>
+            </nav> <!--leftMenu-->
+            <img src="images/logo.svg" alt="logo Twitter">
+            <div class="side">
+                <!--Os elementos estão dentro de uma div, pois serão alinhados juntos-->
+                <input type="text" placeholder="Search on Twitter">
+                <img src="images/avatar.png" alt="Avatar">
+                <button>Tweet</button>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <h1>Clone do Twitter</h1>
+    </div>
+
+    <div class="bar">
+        <div class="content">
+            <ul>
+                <li class="active">
+                    <span>Tweets</span>
+                    <strong>1234</strong>
+                </li>
+                <li>
+                    <span>Followings</span>
+                    <strong>123</strong>
+                </li>
+                <li>
+                    <span>Followers</span>
+                    <strong>243</strong>
+                </li>
+                <li>
+                    <span>Favorites</span>
+                    <strong>17</strong>
+                </li>
+                <li>
+                    <span>Lists</span>
+                    <strong>8</strong>
+                </li>
+                <li>
+                    <span>Moments</span>
+                    <strong>1</strong>
+                </li>
+            </ul>
+    
+        <div class="actions">
+            <button>Follow</button>
+            <img src="images/more.svg" alt="more">
+        </div>
+        </div>
+    </div>
+    
+    <!--Conteúdo da página-->
+    <div class="wrapper-content content">
+        <!--profile-->
+        <aside class="profile">
+            <img src="images//avatar.png" alt="Miroswd" class="avatar">
+            <h1>Miroswd</h1>
+            <span>@miroswd</span>
+            <p>Web, Design & Rock 'n roll Partner/UI Designer @spade_be Musician in @dashboxmusic</p>
+
+            <ul class="list">
+                <li><img src="images/place.svg" alt="Place">Namur, Belgium</li>
+                <li><img src="images/url.svg" alt="URL">exibit.br</li>
+                <li><img src="images/joined.svg" alt="Joined">Joined June 2007</li>
+                <li><img src="images/born.svg" alt="Born">Born the 20th of June 1992</li>
+            </ul>
+            <div class="widgets followers">
+                <strong><img src="images/followers.svg" alt="Followers">73 Followers that is you know</strong>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="widgets images">
+                <strong><img src="images/images.svg" alt="Images">266 Photos and videos</strong>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+        </aside>
+
+
+        <!--Timeline-->
+        <section class="timeline">
+            <nav>
+                <!--Navegação da timeline-->
+                <a href="" class="active">Tweets</a>
+                <a href="">Tweets and replies</a>
+                <a href="">Medias</a>
+            </nav>
+
+            <ul class="tweets">
+                <li>
+                    <img src="images/avatar.png" alt="avatar">
+                    <div class="info">
+                        <strong>Miroswd<span>@miroswd</span></strong>
+                        <p>
+                        Me dá 10 conto pra comprar um civic ?
+                        </p>
+                        <img src="images/civic.jpg" class="photo">
+                        <!--Toda vez que for mudar o fluxo do flex, precisa criar uma nova div-->
+                        <div class="actions">
+                            <a href=""><img src="images/comments.svg" alt="comments">12</a>
+                            <a href=""><img src="images/retweet.svg" alt="retweets">69</a>
+                            <a href=""><img src="images/like.svg" alt="like">22</a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <img src="images/periclao.jpg" alt="avatar">
+                    <div class="info">
+                        <strong>Péricles<span>@periclao_noel</span></strong>
+                        <p>
+                        Só tenho 2 palavras pra vc:
+                        PARA, BÉNS
+                        </p>
+                        <img src="images/pericles.webp" class="photo">
+                        <div class="actions">
+                            <a href=""><img src="images/comments.svg" alt="comments">41</a>
+                            <a href=""><img src="images/retweet.svg" alt="retweets">3</a>
+                            <a href=""><img src="images/like.svg" alt="like">131</a>
+                        </div>
+                    </div>
+                </li>                
+                <li>
+                    <img src="images/jacquin.jpg" alt="avatar">
+                    <div class="info">
+                        <strong>Jacquin<span>@freezer_on</span></strong>
+                        <p>
+                        vc eh a vergonha da profission
+                        </p>
+                        <img src="images/vergonha.jpg" class="photo">
+                        <div class="actions">
+                            <a href=""><img src="images/comments.svg" alt="comments">1714</a>
+                            <a href=""><img src="images/retweet.svg" alt="retweets">3723</a>
+                            <a href=""><img src="images/like.svg" alt="like">1398</a>
+                        </div>
+                    </div>
+                </li>                
+                <li>
+                    <img src="images/otavio.jpeg" alt="avatar">
+                    <div class="info">
+                        <strong>Otávio Mesquita<span>@mesquitao</span></strong>
+                        <p>
+                            Tinha 2 formigas conversando kkkjkjk:<br/>
+                            - Oi, eu sou a Fu... kkkj<br/>
+                            - Fu oq ? <br/>
+                            - Fu...miga kjkjkjkjkjkkkkj<br/>
+                            - Ah.. e eu sou Ota<br/>
+                            - Ota oq ?<br/>
+                            - OTÁVIO MESQUITA<br/><br/>
+                            KKKKKKKKKKKKKKKKKKK, forte abraço
+                        </p>
+                        <div class="actions">
+                            <a href=""><img src="images/comments.svg" alt="comments">4M</a>
+                            <a href=""><img src="images/retweet.svg" alt="retweets">3M</a>
+                            <a href=""><img src="images/like.svg" alt="like">2</a>
+                        </div>
+                    </div>
+                </li>                
+                <li>
+                    <img src="images/avatar.png" alt="avatar">
+                    <div class="info">
+                        <strong>Miroswd<span>@miroswd</span></strong>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                           Etiam pretium diam tellus, at congue metus blandit eget.
+                           Maecenas risus neque, bibendum vel varius vel, hendrerit id tortor. 
+                           Nam at libero pharetra, rhoncus purus id, aliquam diam. 
+                           Pellentesque id tellus nisi. 
+                           Donec commodo lorem varius egestas lobortis. 
+                           In hac habitasse platea dictumst.
+                        </p>
+                        <div class="actions">
+                            <a href=""><img src="images/comments.svg" alt="comments">4</a>
+                            <a href=""><img src="images/retweet.svg" alt="retweets">3</a>
+                            <a href=""><img src="images/like.svg" alt="like">1</a>
+                        </div>
+                    </div>
+                </li>                
+                <li>
+                    <img src="images/avatar.png" alt="avatar">
+                    <div class="info">
+                        <strong>Miroswd<span>@miroswd</span></strong>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                           Etiam pretium diam tellus, at congue metus blandit eget.
+                           Maecenas risus neque, bibendum vel varius vel, hendrerit id tortor. 
+                           Nam at libero pharetra, rhoncus purus id, aliquam diam. 
+                           Pellentesque id tellus nisi. 
+                           Donec commodo lorem varius egestas lobortis. 
+                           In hac habitasse platea dictumst.
+                        </p>
+                        <div class="actions">
+                            <a href=""><img src="images/comments.svg" alt="comments">4</a>
+                            <a href=""><img src="images/retweet.svg" alt="retweets">3</a>
+                            <a href=""><img src="images/like.svg" alt="like">1</a>
+                        </div>
+                    </div>
+                </li>                
+                <li>
+                    <img src="images/avatar.png" alt="avatar">
+                    <div class="info">
+                        <strong>Miroswd<span>@miroswd</span></strong>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                           Etiam pretium diam tellus, at congue metus blandit eget.
+                           Maecenas risus neque, bibendum vel varius vel, hendrerit id tortor. 
+                           Nam at libero pharetra, rhoncus purus id, aliquam diam. 
+                           Pellentesque id tellus nisi. 
+                           Donec commodo lorem varius egestas lobortis. 
+                           In hac habitasse platea dictumst.
+                        </p>
+                        <div class="actions">
+                            <a href=""><img src="images/comments.svg" alt="comments">4</a>
+                            <a href=""><img src="images/retweet.svg" alt="retweets">3</a>
+                            <a href=""><img src="images/like.svg" alt="like">1</a>
+                        </div>
+                    </div>
+                </li>                
+                
+            </ul>
+        </section>
+
+        
+        <!--widgets-->
+        <aside class="widgets">
+            <div class="widgets follow">
+                <div class="title">
+                    <strong>Who to follow</strong>
+                    <a href="">Refresh</a>
+                    <a href="">View all</a>
+                </div>
+            <ul>
+                <li>
+                    <div class="profile">
+                        <img src="images/avatar.png" alt="avatar">
+                        <div class="info">
+                            <strong>Spade<span>@spade_be</span></strong>
+                            <button>Follow</button>
+                        </div>
+                    </div>
+                    <a href="">x</a>
+                </li>
+
+                <li>
+                    <div class="profile">
+                        <img src="images/avatar.png" alt="avatar">
+                        <div class="info">
+                            <strong>Spade<span>@spade_be</span></strong>
+                            <button>Follow</button>
+                        </div>
+                    </div>
+                    <a href="">x</a>
+                </li>
+
+                    <li>
+                        <div class="profile">
+                            <img src="images/avatar.png" alt="avatar">
+                            <div class="info">
+                                <strong>Spade<span>@spade_be</span></strong>
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                        <a href="">x</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>
